@@ -1,12 +1,12 @@
 #Kunats Vladimir
-###### Male, 28/02/1986
+### Male, 28/02/1986
 ============
 
 -------------------     ----------------------------
 ## Contacts
 *GitHub: KunatsVladimir
 *E-mail: vladimir.kunats@gmail.com
-Discord: Vladimir Kunats#9134
+*Discord: Vladimir Kunats#9134
 *Skype: Vladimir Kunats
 -------------------     ----------------------------
 ## Education
