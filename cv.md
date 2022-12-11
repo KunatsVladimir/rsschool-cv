@@ -4,15 +4,15 @@
 
 -------------------     ----------------------------
 ## Contacts
-*GitHub: KunatsVladimir
-*E-mail: vladimir.kunats@gmail.com
-*Discord: Vladimir Kunats#9134
-*Skype: Vladimir Kunats
+* GitHub: KunatsVladimir
+* E-mail: vladimir.kunats@gmail.com
+* Discord: Vladimir Kunats#9134
+* Skype: Vladimir Kunats
 -------------------     ----------------------------
 ## Education
 ---------
-*Brest Technical University, economist
-*The Rollong Scope School:JS/FE Stage 0
+* Brest Technical University, economist
+* The Rollong Scope School:JS/FE Stage 0
 ## Code examples
 
 ```javascript
@@ -24,11 +24,11 @@ const func = (num) => {
 };
 ```
 ## Skills
-   * HTML, CSS
-   * GitHub
-   * VS Code
+* HTML, CSS
+* GitHub
+* VS Code
 ## Leanguages
-*Russian (native).
-*English (A2).
+* Russian (native)
+* English (A2)
 
 
