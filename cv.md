@@ -27,7 +27,7 @@ const func = (num) => {
 * HTML, CSS
 * GitHub
 * VS Code
-## Leanguages
+## Languages
 * Russian (native)
 * English (A2)
 
