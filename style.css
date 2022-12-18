@@ -1,0 +1,265 @@
+/* red-hat-text-regular - latin */
+@font-face {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/red-hat-text-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/red-hat-text-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* red-hat-text-500 - latin */
+  @font-face {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/red-hat-text-v11-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/red-hat-text-v11-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* aleo-regular - latin */
+@font-face {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/aleo-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/aleo-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #050505;
+    margin: 0;
+    padding: 0;
+}
+
+.left_side{
+    background-color: #dbd5dc;
+    padding-left: 15px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.right_side{
+    background-color: rgb(139, 112, 112);
+    padding-left: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.main{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    
+}
+
+.photo{
+    width: 250px;
+    height: 250px;
+    margin: 25px auto auto auto;
+    border-radius: 50%;
+}
+
+h2{
+    font-family: 'Inter';
+    font-style: normal;
+    text-decoration: underline; 
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.line_left{
+    margin: 3px 0 0 0;
+    padding: 0;
+    border: none;
+    background-color: black;
+    color: black;
+    height: 1px;
+}
+
+.line_right{
+    margin: 3px 0 0 0;
+    padding: 0;
+    border: none;
+    background-color: black;
+    color: black;
+    height: 1px;
+
+}
+
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 44px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 50px 0 0 0; 
+    padding: 0;
+}
+
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 19px;
+ 
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.contacts, .education, .skills, .english{
+    margin-top: 30px;
+}
+
+
+.menu_contacts_item{
+    height: 16px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.menu_contacts_img{
+    margin-right: 5px;
+}
+
+.text_education{
+    margin-top: 10px;
+}
+
+.menu_skills{
+    margin-top: 10px; 
+    text-align: center;
+}
+
+.menu_skills_item{
+    margin-top: 7px;
+}
+
+.text_english{
+    margin-top: 10px;
+}
+
+span{
+    font-weight: 700;
+}
+
+.summary{
+    margin-top: 50px;
+}
+
+.code{
+    margin-top: 50px;
+}
+
+.text{
+    margin-top: 10px;
+}
+
+.code_text{
+    margin-top: 10px;
+}
+
+.menu{
+    margin: auto;
+    width: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    height: 50px;
+
+}
+
+ul.menu_link{
+    padding: 15px;
+    float: right;
+}
+
+ul.menu_link li{
+    display: inline;
+    padding: 3px;
+    margin-right: 5px;
+}
+
+
+a:visited{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer{
+    margin-top: 55px;
+    padding-bottom: 33.35px;
+    background-color: black;
+}
+
+.footer_rights{
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.footer_networks{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    width: 698.96px;
+    height: 33.65px;
+    margin-left: 590px;
+}
+
+.network_links{
+    width: 140.96px;
+    height: 33.65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+.footer_icon{
+    width: 53.65px;
+    height: 53.65px;
+}
+
