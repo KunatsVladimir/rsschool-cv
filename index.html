@@ -5,55 +5,176 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Kunats Vladimir</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="reset.css">
 </head>
 <body>
-	<header class="header-desktop">
-		<nav class="nav-desktop">
-			<ul class="menu-desktop">
+	<header class="head">
+		<nav class="menu">
+			<ul class="menu_link">
+				<li class="menu_link_item">
+					contacts
+				</li>
+				<li class="menu_link_item">
+					education
+				</li>
+				<li class="menu_link_item">
+					skills
+				</li>
+				<li class="menu_link_item">
+					english
+				</li>
+				<li class="menu_link_item">
+					summary
+				</li>
+				<li class="menu_link_item">
+					code
+				</li>
 			</ul>
 		</nav>
 	</header>
-
 	<main class="main">
-		<section id="contacts" class="contacts">
-			<div class="contacts">
-				<h2 class="sub-header">Contacts</h2>
-				<ul class="contacts__menu">
+		<div class="left_side">
+			<img src="img/photo.jpg" alt="photo" class="photo">
+			<section class="contacts">
+				<h2>
+					contacts
+				</h2>
+				<ul class="menu_contacts">
+					<li class="menu_contacts_item">
+						<img src="img/location.png" alt="Location" class="menu_contacts_img">
+						Brest, Belarus
+					</li>
+					<li class="menu_contacts_item">
+						<img src="img/email.png" alt="Email" class="menu_contacts_img">
+						vladimir.kunats@gmail.com
+					</li>
+					<li class="menu_contacts_item">
+						<img src="img/telegram.png" alt="Telegram" class="menu_contacts_img">
+						vladimir_kunats
+					</li>
+					<li class="menu_contacts_item">
+						<img src="img/github.png" alt="GitHub" class="menu_contacts_img">
+						KunatsVladimir
+					</li>
+					<li class="menu_contacts_item">
+						<img src="img/discord.png" alt="Discord" class="menu_contacts_img">
+						Vladimir Kunats#9134
+					</li>
 				</ul>
-			</div>
-		</section>
-        <section id="education" class="education">
-			<h2 class="sub-header">Education</h2>
-			<ul class="education__menu">
-
-			</ul>
-		</section>
-
-        <section id="code" class="code">
-			<h2 class="code-header">Code examples</h2>
-			<div class="code-examples">
+			</section>
+			<section class="education">
+				<h2>
+					education
+				</h2>
+				<div class="text_education">State Technical University, 2014</div>
+			</section>
+			<section class="skills">
+				<h2>skills</h2>
+				<ul class="menu_skills">
+					<li class="menu_skills_item">
+						<span>DBMS:</span>MySQL.
+					</li>
+					<li class="menu_skills_item">
+						<span>Version control:</span>GIT, GitHub.
+					</li>
+					<li class="menu_skills_item">
+						<span>Graphics:</span>Figma.
+					</li>
+				</ul>
+			</section>
+			<section class="english">
+				<h2>english</h2>
+				<div class="text_english">
+					A2 - Pre-Intermediate
+				</div>
+			</section>
+		</div>
+		<div class="right_side">
+			<section class="name">
+				<h1>
+					Vladimir Kunats
+				</h1>
+				<h3>
+					Future Junior Front-end Developer
+				</h3>
+			</section>
+			<section class="about">
+				<h2>
+					about me
+				</h2>
+				<div class="text">
+					I am from Brest.I want to change my profession. I want to try myself in a new capacity. Programming is interesting to me. A year ago I knew a few words in English, and now I am studying at the A2 level. I'm not going to stop there.
+				</div>
+			</section>
+			<section class="code">
+				<h2>
+					code
+				</h2>
 				<pre>
+					<code id="htmlViewer" style="color:rgb(192, 197, 206); font-weight:400;background-color:rgb(139, 112, 112);background:rgb(139, 112, 112);display:block;padding: .5em;"><span style="color:rgb(192, 197, 206); font-weight:400;"><span style="color:rgb(250, 246, 246); font-weight:400;">function</span> <span style="color:rgb(120, 187, 101); font-weight:400;">explode</span>(<span style="color:rgb(231, 206, 86); font-weight:400;">s</span>) </span>{
+   <span style="color:rgb(139, 112, 112); font-weight:400;">const</span> arr = s.split(<span style="color:rgb(79, 180, 215); font-weight:400;">&#x27;&#x27;</span>).map(<span style="color:rgb(231, 206, 86); font-weight:400;">Number</span>);
+   <span style="color:rgb(139, 112, 112); font-weight:400;">let</span> result = <span style="color:rgb(79, 180, 215); font-weight:400;">&#x27;&#x27;</span>;
+   arr.forEach(<span style="color:rgb(192, 197, 206); font-weight:400;"><span style="color:rgb(231, 206, 86); font-weight:400;">value</span> =&gt;</span> {
+      <span style="color:rgb(139, 112, 112); font-weight:400;">for</span> (<span style="color:rgb(180, 94, 164); font-weight:400;">let</span> i = <span style="color:rgb(231, 206, 86); font-weight:400;">0</span>; i &lt; value; i++) {
+	 result += value;
+      }
+   });
+   <span style="color:rgb(139, 112, 112); font-weight:400;">return</span> result;
+}</code>
 				</pre>
-			</div>
-		</section>
-
-		<section id="skills" class="skills">
-			<h2 class="sub-header">Skills</h2>
-			<div class="hard-skills">
-				<ul class="skills__menu">
-				</ul>
-			</div>
-		</section>
-
-		<section id="languages" class="languages">
-			<h2 class="sub-header">Languages</h2>
-			<div class="languages">
-			</div>
-		</section>
+				<pre>
+					<code id="htmlViewer" style="color:rgb(192, 197, 206); font-weight:400;background-color:rgb(169, 245, 7);background:rgb(139, 112, 112);display:block;padding: .5em;"><span style="color:rgb(250, 246, 246); font-weight:400;">const</span> whatTimeIsIt = <span style="color:rgb(192, 197, 206); font-weight:400;">(<span style="color:rgb(231, 206, 86); font-weight:400;">angle</span>) =&gt;</span> {
+   <span style="color:rgb(139, 112, 112); font-weight:400;">const</span> allMinutes = <span style="color:rgb(231, 206, 86); font-weight:400;">Math</span>.floor(angle * <span style="color:rgb(231, 206, 86); font-weight:400;">2</span>);
+   <span style="color:rgb(139, 112, 112); font-weight:400;">let</span> minutes = allMinutes % <span style="color:rgb(231, 206, 86); font-weight:400;">60</span>;
+   <span style="color:rgb(139, 112, 112); font-weight:400;">let</span> hours = (allMinutes - minutes) / <span style="color:rgb(231, 206, 86); font-weight:400;">60</span>;
+   <span style="color:rgb(139, 112, 112); font-weight:400;">if</span> (minutes &lt; <span style="color:rgb(231, 206, 86); font-weight:400;">10</span>) minutes = <span style="color:rgb(79, 180, 215); font-weight:400;">`0<span style="color:rgb(79, 180, 215); font-weight:400;">${minutes}</span>`</span>;
+   <span style="color:rgb(139, 112, 112); font-weight:400;">if</span> (hours === <span style="color:rgb(231, 206, 86); font-weight:400;">0</span>) hours = <span style="color:rgb(231, 206, 86); font-weight:400;">12</span>;
+   <span style="color:rgb(139, 112, 112); font-weight:400;">if</span> (hours &lt; <span style="color:rgb(231, 206, 86); font-weight:400;">10</span>) hours = <span style="color:rgb(79, 180, 215); font-weight:400;">`0<span style="color:rgb(79, 180, 215); font-weight:400;">${hours}</span>`</span>;
+   <span style="color:rgb(139, 112, 112); font-weight:400;">return</span> <span style="color:rgb(79, 180, 215); font-weight:400;">`<span style="color:rgb(79, 180, 215); font-weight:400;">${hours}</span>:<span style="color:rgb(79, 180, 215); font-weight:400;">${minutes}</span>`</span>;
+}</code></pre>
+			</section>
+		</div>
 	</main>
 
 	<footer class="footer">
+		<div class="wrapper">
+			<div class="footer_networks">
+				<p class="footer_rights">All Rights Reserved © Vladimir Kunats</p>
+				<nav class="footer_nav">                        
+					<div class="footer_network">
+						<ul class="network_links">
+								<li class="network_links_item">
+								<div class="mygit">
+									<a href="https://github.com/KunatsVladimir" class="network_link"><img src="img/GitHub-Logo.wine.svg" alt="github" class="footer_icon"></a>
+								</div>
+							</li>
+							<li class="network_links_item">
+								<div class="rsschool">
+									<a href="https://app.rs.school/" class="network_link"><img src="img/rsshool.svg" alt="rsschool" class="footer_icon"></a>
+								</div>
+							</li>
+							<li class="network_links_item">
+								<div class="instagram">
+									<a href="https://github.com/KunatsVladimir" class="network_link"><img src="img/instagram.svg" alt="instagram" class="footer_icon"></a>
+								</div>
+							</li>
+							<li class="network_links_item">
+								<div class="youtube">
+									<a href="https://github.com/KunatsVladimir" class="network_link"><img src="img/youtube.svg" alt="youtube" class="footer_icon"></a>
+								</div>
+							</li>
+							<li class="network_links_item">
+								<div class="twitter">
+									<a href="https://github.com/KunatsVladimir" class="network_link"><img src="img/twitter.svg" alt="twitter" class="footer_icon"></a>
+								</div>
+							</li>
+						</ul>
+					</div> 
+				</nav>
+			</div>        
+		</div>
 	</footer>
-	<script src="script.js"></script>
+
+   <script src="js/script.js"></script>
 </body>
 </html>
